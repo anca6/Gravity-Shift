@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="30" height="17" tilewidth="64" tileheight="64" infinite="0" nextlayerid="38" nextobjectid="202">
+ <tileset firstgid="1" name="TileSet_environment" tilewidth="64" tileheight="64" tilecount="192" columns="12">
+  <image source="Assets/TileSet_environment.png" width="781" height="1025"/>
+ </tileset>
+ <tileset firstgid="193" name="Boxes (4)" tilewidth="256" tileheight="256" tilecount="1" columns="1">
+  <image source="Assets/Boxes (4).png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="194" name="barry" tilewidth="48" tileheight="48" tilecount="7" columns="7">
+  <image source="barry.png" width="336" height="48"/>
+ </tileset>
+ <tileset firstgid="201" name="spike" tilewidth="256" tileheight="256" tilecount="1" columns="1">
+  <image source="Assets/1spike.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="202" name="Tile_Dirt_1" tilewidth="64" tileheight="64" tilecount="1" columns="1">
+  <image source="Assets/Tile_Dirt_1.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="203" name="BlackHole" tilewidth="256" tileheight="256" tilecount="1" columns="1">
+  <image source="Assets/BlackHole.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="204" name="electron" tilewidth="256" tileheight="256" tilecount="1" columns="1">
+  <image source="electron.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="205" name="Player2" tilewidth="360" tileheight="530" tilecount="14" columns="14">
+  <image source="Player2.png" width="5040" height="530"/>
+ </tileset>
+ <imagelayer id="23" name="bg">
+  <image source="Assets/Background.png" width="1920" height="1080"/>
+ </imagelayer>
+ <imagelayer id="29" name="Image Layer 4" offsetx="448" offsety="384">
+  <image source="Assets/Tile_Shroom_2.png" width="256" height="256"/>
+ </imagelayer>
+ <imagelayer id="28" name="Image Layer 3" offsetx="320" offsety="640">
+  <image source="Assets/Flower (4).png" width="64" height="64"/>
+ </imagelayer>
+ <imagelayer id="30" name="Copy of Image Layer 3" offsetx="1280" offsety="640">
+  <image source="Assets/Flower (4).png" width="64" height="64"/>
+ </imagelayer>
+ <imagelayer id="25" name="Image Layer 2" offsetx="0" offsety="448">
+  <image source="Assets/Shroom (1).png" width="256" height="256"/>
+ </imagelayer>
+ <imagelayer id="37" name="Copy of Image Layer 8" offsetx="0" offsety="766">
+  <image source="top.png" width="1927" height="384"/>
+ </imagelayer>
+ <layer id="24" name="Tile Layer 1" width="30" height="17">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,0,0,0,0,0,7,7,7,7,7,7,7,7,7,
+7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,
+7,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,
+7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,
+7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,
+7,7,7,7,7,7,0,0,0,0,0,0,7,7,7,7,7,0,0,7,7,7,7,7,7,7,7,7,7,7,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,202,202,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="11" name="Object Layer 1" offsetx="0" offsety="-0.0909091">
+  <object id="201" type="Player" gid="205" x="188.5" y="685.773" width="67.2479" height="102.182">
+   <properties>
+    <property name="collectiblesNeeded" type="int" value="1"/>
+    <property name="speed" type="float" value="5"/>
+   </properties>
+  </object>
+  <object id="119" type="Box" gid="193" x="896" y="704" width="64" height="64"/>
+  <object id="177" type="Damage" gid="201" x="576" y="768" width="64" height="64"/>
+  <object id="178" type="TimerText" x="0" y="0" width="1920" height="1080" visible="0"/>
+  <object id="179" type="Score" x="23.1531" y="23.4312" width="1920" height="1080" visible="0">
+   <properties>
+    <property name="load" value="0"/>
+   </properties>
+  </object>
+  <object id="181" type="TutCheckpoint" gid="203" x="1600" y="704" width="256" height="256">
+   <properties>
+    <property name="collectiblesNeeded" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="182" type="Damage" gid="201" x="512" y="768" width="64" height="64"/>
+  <object id="183" type="Damage" gid="201" x="448" y="768" width="64" height="64"/>
+  <object id="184" type="Damage" gid="201" x="640" y="768" width="64" height="64"/>
+  <object id="185" type="Damage" gid="201" x="384" y="768" width="64" height="64"/>
+  <object id="186" type="Damage" gid="201" x="704" y="768" width="64" height="64"/>
+  <object id="187" type="Damage" gid="1073742025" x="1024" y="448" width="64" height="64"/>
+  <object id="188" type="Damage" gid="1073742025" x="1088" y="448" width="64" height="64"/>
+  <object id="189" type="Damage" gid="1073742025" x="1152" y="448" width="64" height="64"/>
+  <object id="191" type="Damage" gid="1073742025" x="1216" y="448" width="64" height="64"/>
+  <object id="192" type="Damage" gid="1073742025" x="1280" y="448" width="64" height="64"/>
+  <object id="195" x="437.5" y="785.091" width="294.333" height="38">
+   <text fontfamily="Maiandra GD" pixelsize="33" wrap="1" color="#ffffff" halign="center" valign="center">Spikes reset levels</text>
+  </object>
+  <object id="197" x="773.833" y="715.758" width="310.333" height="38.6667">
+   <text fontfamily="Maiandra GD" pixelsize="33" wrap="1" color="#ffffff" halign="center" valign="center">You can push boxes!</text>
+  </object>
+  <object id="198" x="1026.83" y="781.758" width="280.333" height="27.6667">
+   <text fontfamily="Maiandra GD" pixelsize="33" wrap="1" color="#ffffff" halign="center" valign="center">R also resets levels</text>
+  </object>
+  <object id="200" type="Collectible" gid="204" x="1412" y="638.091" width="64" height="64"/>
+ </objectgroup>
+ <imagelayer id="33" name="Image Layer 6" offsetx="206" offsety="506">
+  <image source="Assets/ad.png" width="253" height="62"/>
+ </imagelayer>
+ <imagelayer id="34" name="Image Layer 7" offsetx="1253" offsety="488.03">
+  <image source="Assets/elec.png" width="389" height="89"/>
+ </imagelayer>
+ <imagelayer id="36" name="Image Layer 8" offsetx="-2.5" offsety="0">
+  <image source="top.png" width="1927" height="384"/>
+ </imagelayer>
+</map>

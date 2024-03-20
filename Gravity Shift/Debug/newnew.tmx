@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="30" height="17" tilewidth="64" tileheight="64" infinite="0" nextlayerid="47" nextobjectid="226">
+ <tileset firstgid="1" name="TileSet_environment" tilewidth="64" tileheight="64" tilecount="192" columns="12">
+  <image source="Assets/TileSet_environment.png" width="781" height="1025"/>
+ </tileset>
+ <tileset firstgid="193" name="Boxes (4)" tilewidth="256" tileheight="256" tilecount="1" columns="1">
+  <image source="Assets/Boxes (4).png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="194" name="barry" tilewidth="48" tileheight="48" tilecount="7" columns="7">
+  <image source="barry.png" width="336" height="48"/>
+ </tileset>
+ <tileset firstgid="201" name="circle" tilewidth="64" tileheight="64" tilecount="1" columns="1">
+  <image source="circle.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="202" name="checkers" tilewidth="64" tileheight="64" tilecount="1" columns="1">
+  <image source="checkers.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="203" name="spike" tilewidth="256" tileheight="256" tilecount="1" columns="1">
+  <image source="Assets/1spike.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="204" name="Tile_Dirt_1" tilewidth="64" tileheight="64" tilecount="1" columns="1">
+  <image source="Assets/Tile_Dirt_1.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="205" name="electron" tilewidth="256" tileheight="256" tilecount="1" columns="1">
+  <image source="electron.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="206" name="BlackHole" tilewidth="256" tileheight="256" tilecount="1" columns="1">
+  <image source="Assets/BlackHole.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="207" name="Boxes (5)" tilewidth="64" tileheight="64" tilecount="1" columns="1">
+  <image source="Assets/Boxes (5).png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="208" name="Player2" tilewidth="360" tileheight="530" tilecount="14" columns="14">
+  <image source="Player2.png" width="5040" height="530"/>
+ </tileset>
+ <imagelayer id="4" name="Image Layer 1">
+  <image source="Assets/Background.png" width="1920" height="1080"/>
+ </imagelayer>
+ <imagelayer id="24" name="pressure 1" offsetx="384.091" offsety="565.136">
+  <image source="Assets/Boxes (5).png" width="64" height="64"/>
+ </imagelayer>
+ <imagelayer id="25" name="pressure 2" offsetx="1280.13" offsety="501.023">
+  <image source="Assets/Boxes (5).png" width="64" height="64"/>
+ </imagelayer>
+ <imagelayer id="26" name="pressure 3" offsetx="1791.86" offsety="949.008">
+  <image source="Assets/Boxes (5).png" width="64" height="64"/>
+ </imagelayer>
+ <imagelayer id="40" name="Image Layer 6" offsetx="1280" offsety="256">
+  <image source="Assets/Shroom (5).png" width="256" height="256"/>
+ </imagelayer>
+ <imagelayer id="39" name="Image Layer 5" offsetx="0" offsety="256">
+  <image source="Assets/Shroom (1).png" width="256" height="256"/>
+ </imagelayer>
+ <imagelayer id="41" name="Image Layer 7" offsetx="960" offsety="576">
+  <image source="Assets/Tile_Shroom_2.png" width="256" height="256"/>
+ </imagelayer>
+ <imagelayer id="42" name="Image Layer 8" offsetx="320" offsety="704">
+  <image source="Assets/Shroom (8).png" width="256" height="256"/>
+ </imagelayer>
+ <imagelayer id="43" name="Image Layer 9" offsetx="1344" offsety="704">
+  <image source="Assets/Shroom (9).png" width="256" height="256"/>
+ </imagelayer>
+ <imagelayer id="44" name="Image Layer 10" offsetx="960" offsety="512">
+  <image source="Assets/Flower (3).png" width="64" height="64"/>
+ </imagelayer>
+ <imagelayer id="45" name="Image Layer 11" offsetx="1216" offsety="896">
+  <image source="Assets/Flower (4).png" width="64" height="64"/>
+ </imagelayer>
+ <imagelayer id="46" name="Image Layer 12" offsetx="704" offsety="512">
+  <image source="Assets/Shroom_smol1.png" width="64" height="64"/>
+ </imagelayer>
+ <layer id="23" name="Tile Layer 1" width="30" height="17">
+  <data encoding="csv">
+7,204,7,7,204,204,204,7,204,7,204,204,204,204,204,204,204,204,204,7,204,204,7,7,204,7,204,204,204,7,
+7,204,7,7,204,204,204,204,204,7,204,204,204,204,7,204,204,7,7,7,204,204,204,7,7,7,204,7,7,204,
+204,204,204,204,204,204,0,204,204,204,204,7,204,7,204,204,204,7,7,204,204,7,204,7,204,204,204,7,7,7,
+204,7,7,7,7,0,0,0,204,7,204,204,204,204,7,7,7,204,204,7,204,7,204,7,7,7,7,7,7,7,
+7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1073741826,0,0,204,
+204,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,204,
+204,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,
+7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,
+7,204,204,204,7,0,0,0,7,7,0,0,0,0,0,0,0,0,0,204,204,204,204,0,0,0,0,0,0,7,
+7,204,204,204,204,204,7,7,7,204,7,7,204,204,204,7,7,7,204,7,7,204,7,0,0,0,0,0,0,7,
+204,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,204,
+204,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,204,
+204,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,7,204,
+204,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,204,
+7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,
+7,0,0,0,0,7,7,204,204,7,204,0,0,0,0,0,0,0,0,204,7,7,204,7,7,7,204,7,7,7,
+7,7,7,7,204,204,204,7,7,204,204,204,204,204,7,7,204,204,204,7,204,204,204,204,7,204,7,7,7,204
+</data>
+ </layer>
+ <objectgroup id="11" name="Object Layer 1" offsetx="0" offsety="-0.0909091">
+  <object id="124" type="PressurePlate" gid="202" x="384.004" y="576.996" width="64" height="1"/>
+  <object id="196" type="PressurePlate" gid="202" x="1792" y="961" width="64" height="1"/>
+  <object id="192" type="PressurePlate" gid="202" x="1280" y="513" width="64" height="1"/>
+  <object id="225" type="Player" gid="208" x="116" y="503.869" width="67.25" height="102.18">
+   <properties>
+    <property name="collectiblesNeeded" type="int" value="2"/>
+    <property name="speed" type="float" value="5"/>
+   </properties>
+  </object>
+  <object id="119" type="Box" gid="193" x="256" y="512" width="64" height="64"/>
+  <object id="178" type="TimerText" x="0" y="0" width="1920" height="1080"/>
+  <object id="179" type="Score" x="0" y="0" width="1920" height="1080"/>
+  <object id="181" type="Collectible" gid="205" x="832" y="448" width="64" height="64"/>
+  <object id="184" type="Damage" gid="1073742027" x="640" y="320" width="64" height="64"/>
+  <object id="185" type="Damage" gid="1073742027" x="704" y="320" width="64" height="64"/>
+  <object id="186" type="Damage" gid="1073742027" x="768" y="320" width="64" height="64"/>
+  <object id="187" type="Damage" gid="1073742027" x="832" y="320" width="64" height="64"/>
+  <object id="188" type="Damage" gid="203" x="704" y="1024" width="64" height="64"/>
+  <object id="189" type="Damage" gid="1073742027" x="960" y="320" width="64" height="64"/>
+  <object id="190" type="Damage" gid="1073742027" x="1024" y="320" width="64" height="64"/>
+  <object id="193" type="Box" gid="193" x="1344" y="512" width="64" height="64"/>
+  <object id="195" type="Box" gid="193" x="1728" y="960" width="64" height="64"/>
+  <object id="197" type="Box" gid="193" x="1344" y="960" width="64" height="64"/>
+  <object id="198" type="Damage" gid="203" x="768" y="1024" width="64" height="64"/>
+  <object id="199" type="Damage" gid="203" x="832" y="1024" width="64" height="64"/>
+  <object id="200" type="Damage" gid="203" x="896" y="1024" width="64" height="64"/>
+  <object id="201" type="Damage" gid="203" x="960" y="1024" width="64" height="64"/>
+  <object id="202" type="Damage" gid="203" x="1024" y="1024" width="64" height="64"/>
+  <object id="203" type="Damage" gid="203" x="1088" y="1024" width="64" height="64"/>
+  <object id="204" type="Damage" gid="203" x="1152" y="1024" width="64" height="64"/>
+  <object id="206" type="Damage" gid="203" x="256" y="1024" width="64" height="64"/>
+  <object id="207" type="Damage" gid="203" x="192" y="1024" width="64" height="64"/>
+  <object id="208" type="Damage" gid="203" x="128" y="1024" width="64" height="64"/>
+  <object id="209" type="Damage" gid="203" x="64" y="1024" width="64" height="64"/>
+  <object id="211" type="Checkpoint" gid="206" x="64" y="960" width="256" height="256"/>
+  <object id="212" type="Collectible" gid="205" x="896" y="832" width="64" height="64"/>
+  <object id="215" type="MovingPlatform" gid="13" x="1088" y="512" width="64" height="64">
+   <properties>
+    <property name="rangeLeft" type="float" value="576"/>
+    <property name="rangeRight" type="float" value="0"/>
+   </properties>
+  </object>
+  <object id="218" type="MovingPlatform" gid="16" x="1472" y="576" width="64" height="64">
+   <properties>
+    <property name="rangeLeft" type="float" value="0"/>
+    <property name="rangeRight" type="float" value="256"/>
+   </properties>
+  </object>
+  <object id="219" type="MovingPlatform" gid="17" x="1536" y="576" width="64" height="64">
+   <properties>
+    <property name="rangeLeft" type="float" value="0"/>
+    <property name="rangeRight" type="float" value="256"/>
+   </properties>
+  </object>
+  <object id="220" type="MovingPlatform" gid="16" x="1728" y="640" width="64" height="64">
+   <properties>
+    <property name="rangeLeft" type="float" value="256"/>
+    <property name="rangeRight" type="float" value="0"/>
+   </properties>
+  </object>
+  <object id="221" type="MovingPlatform" gid="17" x="1792" y="640" width="64" height="64">
+   <properties>
+    <property name="rangeLeft" type="float" value="256"/>
+    <property name="rangeRight" type="float" value="0"/>
+   </properties>
+  </object>
+  <object id="222" type="MovingPlatform" gid="16" x="576" y="896" width="64" height="64">
+   <properties>
+    <property name="rangeLeft" type="float" value="0"/>
+    <property name="rangeRight" type="float" value="512"/>
+   </properties>
+  </object>
+  <object id="223" type="MovingPlatform" gid="17" x="640" y="896" width="64" height="64">
+   <properties>
+    <property name="rangeLeft" type="float" value="0"/>
+    <property name="rangeRight" type="float" value="512"/>
+   </properties>
+  </object>
+  <object id="224" type="Damage" gid="1073742027" x="896" y="320" width="64" height="64"/>
+ </objectgroup>
+</map>

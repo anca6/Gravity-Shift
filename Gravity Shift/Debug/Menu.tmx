@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="60" height="33" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="5">
+ <tileset firstgid="1" name="startbg" tilewidth="1920" tileheight="1080" tilecount="1" columns="1">
+  <image source="startmenu.png" width="1920" height="1080"/>
+ </tileset>
+ <imagelayer id="4" name="bg" offsetx="0" offsety="-22.6667">
+  <image source="Assets/startmenu.png" width="1920" height="1080"/>
+ </imagelayer>
+ <imagelayer id="5" name="settings" offsetx="2" offsety="-22">
+  <image source="Assets/settings_buton.png" width="1920" height="1080"/>
+ </imagelayer>
+ <imagelayer id="9" name="quit" offsetx="0" offsety="-21.5">
+  <image source="Assets/quit_button.png" width="1920" height="1080"/>
+ </imagelayer>
+ <imagelayer id="10" name="play" offsetx="-2.66667" offsety="-20">
+  <image source="Assets/play_button.png" width="1920" height="1080"/>
+ </imagelayer>
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="3" name="Play button" class="Button" x="863.833" y="249.833" width="202.334" height="73">
+   <properties>
+    <property name="highscoreHUD" type="bool" value="false"/>
+    <property name="hud" type="bool" value="true"/>
+    <property name="load" value="tutorial"/>
+   </properties>
+   <text fontfamily="MS Shell Dlg 2" pixelsize="60" wrap="1" bold="1" halign="center" valign="center"></text>
+  </object>
+ </objectgroup>
+</map>
